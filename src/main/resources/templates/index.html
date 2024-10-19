@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis carros (en un futuro)</title>
+</head>
+<body>
+
+  <div>
+    <h1>Los Vehiculos de David:</h1>
+    <ul>
+      <li th:each="elemento : ${vehiculos}" th:text="${elemento}"></li>
+    </ul>
+  </div>
+
+</body>
+</html>
